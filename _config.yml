@@ -17,3 +17,17 @@ theme: jekyll-theme-cayman
 future: true
 repository: misostack/blog
 github: [metadata]
+
+# content
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
