@@ -6,6 +6,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://blog.misostack.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  misostack
+google_analytics: UA-106909431-1
 
 # Build settings
 markdown: kramdown
