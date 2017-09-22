@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+@mixin clearFix(){
+  &:before,
+  &:after{
+    content: " "; 
+    display: table; 
+  }
+
+  &:after{
+    display: block;
+    clear: both;
+    height: 1px;
+    margin-top: -1px;
+    visibility: hidden;
+  }
+  &{
+    *zoom: 1;
+  }
+}
+.container{  
+  max-width:1024px;
+  margin:0px auto;
+  @include clearFix();
+}
+.page-nav{  
+  background:#333;
+  @include clearFix();
+  ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  li{
+    float:left;
+  }
+  a{
+    color:rgba(255,255,255,0.3);
+    text-transform:uppercase;
+    display:block;
+    padding:10px;
+    font-weight:bold;
+    text-decoration:none;
+    &:hover{
+      color:rgba(255,255,255,1);
+    }
+  }
+}

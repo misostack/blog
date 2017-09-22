@@ -1,4 +1,10 @@
+---
+title : "Technical blog from misostack"
+description : "Tips, tools for programming, includes : web, ops, app, ..."
+---
 ## Welcome to GitHub Pages
+
+https://help.shopify.com/themes/liquid/basics/handle
 
 You can use the [editor on GitHub](https://github.com/misostack/blog/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 

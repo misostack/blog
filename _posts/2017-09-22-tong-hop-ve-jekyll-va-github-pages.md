@@ -1,6 +1,6 @@
 ---
 title: Tổng hợp về jekyll và github pages
-preview: "Hướng dẫn từ cơ bản đến cao sử dụng jekyll để tạo github pages" 
+description: "Hướng dẫn từ cơ bản đến cao sử dụng jekyll để tạo github pages" 
 permalink: "/miscellaneous/tong-hop-ve-jekyll-va-github-pages" 
 layout: post
 
@@ -17,6 +17,8 @@ Tổng quan cấu trúc thư mục
   -Danh mục
   --Bài viết
 ```
+
+Liquid Layout Ref : https://help.shopify.com/themes/liquid/basics/handle
 
 ### Bước 1 : Cài đặt
 
