@@ -7,6 +7,7 @@ url: "http://blog.misostack.com" # the base hostname & protocol for your site, e
 twitter_username: 
 github_username:  misostack
 google_analytics: UA-106909431-1
+lang: vi-VN
 
 # Build settings
 markdown: kramdown

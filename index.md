@@ -1,43 +1,71 @@
 ---
+layout: default
 title : "Technical blog from misostack"
 description : "Tips, tools for programming, includes : web, ops, app, ..."
 ---
-## Welcome to GitHub Pages
 
-https://help.shopify.com/themes/liquid/basics/handle
+## Jekyll & Markdown Refs
 
-You can use the [editor on GitHub](https://github.com/misostack/blog/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Jekyll layout](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-layouts/)
 
-### Markdown
+- [Jekyll links](http://jekyllrb.com/docs/templates/#link)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Sử dụng jekyll tạo tài liệu
 
-```markdown
-Syntax highlighted code block
+## Những command thông dụng trong jekyll
 
-# Header 1
-## Header 2
-### Header 3
+Command | Công dụng
+------------ | -------------
+bundle exec jekyll serve | Serve jekyll at [localhost:port](http://localhost:4000)
+bundle exec jekyll page "Page Name" | Tạo page mới
+bundle exec jekyll post "Post Name" | Tạo post mới
 
-- Bulleted
-- List
+## Example format
 
-1. Numbered
-2. List
+### page
 
-**Bold** and _Italic_ and `Code` text
+*create*
 
-[Link](url) and ![Image](src)
+```
+bundle exec jekyll page "Page Name"
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+*modify page-name.md*
 
-### Jekyll Themes
+```
+---
+layout: page
+title: Page title
+description: short description
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/misostack/blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Content
 
-### Support or Contact
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### post
+
+*create*
+
+```
+bundle exec jekyll post "Post Name"
+```
+
+*modify _posts/yyyy-mm-dd-post-name.md*
+
+```
+---
+title: Tổng hợp về jekyll và github pages
+description: "Hướng dẫn từ cơ bản đến cao sử dụng jekyll để tạo github pages" 
+permalink: "/category-name/post-name" 
+layout: post
+
+categories: 
+    - "category-name"
+---
+
+Content
+
+```
