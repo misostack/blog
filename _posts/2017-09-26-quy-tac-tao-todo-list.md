@@ -49,11 +49,26 @@ categories:
 > - Chuẩn bị báo giá cho khách hàng B và gửi cho họ vào 3 ngày sau
 >  
 > TH1: thời gian làm báo giá, soạn email để gửi cho 2 khách hàng là bằng nhau thì
+> 
 > gắn vào phương trình trên ta có
+> 
 > Urgent(A) = X/( 2 * WorksTime)
+> 
 > Urgent(B) = X/( 3 * WorksTime )
-> Urgent(A) - Urgent(B) = X/2Y - X/3Y = X(1/2Y - 1/3Y)
+> 
+> Urgent(A) - Urgent(B) = X/2Y - X/3Y > 0
+> 
 > việc ưu tiên sẽ được sắp xếp theo thứ tự : A -> B.
+> 
+> TH2: RT(A) = 2, RT(B) = 8
+> 
+> Urgent(A) - Urgent(B) = 2/(2*4) - 8/(3*4) = 1/4 - 2/3 < 0
+> 
+> việc ưu tiên sẽ được sắp theo thứ tự : B -> A
+> 
+> TH3: U(A) = U(B)
+> 
+> việc ưu tiên sẽ theo thứ tự deadline
 
 
 # C. Cơ sở phân loại nhiệm vụ theo mục tiêu
