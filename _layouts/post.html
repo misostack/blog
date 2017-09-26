@@ -3,11 +3,8 @@ layout: default
 ---
 
 <div class="post-content">
-  
-  {{ content }}  
-
-  <h3>Tags</h3>
   <div class="tags">
+    <strong>Tags:</strong>
       {% assign sortedCategories = page.categories | sort %}
       {% for category in sortedCategories %}
           <span class="tag">
@@ -15,4 +12,5 @@ layout: default
           </span>
       {% endfor %}
   </div>  
+  {{ content }}  
 </div>

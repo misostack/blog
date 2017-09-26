@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title : "Technical blog from misostack"
 description : "Tips, tools for programming, includes : web, ops, app, ..."
 ---
