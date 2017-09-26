@@ -24,6 +24,38 @@ categories:
 
 # B. Xác lập phương pháp xây dựng todolist
 
+## Phân loại
+
+**Việc phân loại nhiệm vụ sẽ dựa theo các yếu tố sau:**
+
+- [X]Activity Group : Family, Personal, Social, Works
+
+- [X]Important : những việc cần phải làm để đạt được mục tiêu
+
+- [X]Urgent : những việc cần làm ngay, mức độ Urgent sẽ từ 0-100
+
+**Công thức tính mức độ Urgent**
+
+> Urgent = RequiredTime / (Now - Deadline) * GroupTime
+
+**WorksTime** : 4 hours/days ( giờ làm việc mỗi ngày)
+
+**Xem xét ví dụ sau**
+
+> Có 2 việc quan trọng cần giải quyết ngay:
+> 
+> - Chuẩn bị báo giá cho khách hàng A và gửi cho họ vào 2 ngày sau
+> 
+> - Chuẩn bị báo giá cho khách hàng B và gửi cho họ vào 3 ngày sau
+>  
+> TH1: thời gian làm báo giá, soạn email để gửi cho 2 khách hàng là bằng nhau thì
+> gắn vào phương trình trên ta có
+> Urgent(A) = X/( 2 * WorksTime)
+> Urgent(B) = X/( 3 * WorksTime )
+> Urgent(A) - Urgent(B) = X/2Y - X/3Y = X(1/2Y - 1/3Y)
+> việc ưu tiên sẽ được sắp xếp theo thứ tự : A -> B.
+
+
 # C. Cơ sở phân loại nhiệm vụ theo mục tiêu
 
 ## Targets
