@@ -191,7 +191,8 @@ categories:
 > - Cơ thể cảm thấy hứng thú muốn vận động tay chân: tập thể thao, y võ dưỡng sinh
 > - Vệ sinh da, thân thể.
 > - Năng lượng của phổi thấp nhất trong ngày. Nên ngồi thở dưỡng sinh để tăng ôxy trong phổi.
-> - Nhịp độ trao đổi chất và sản xuất dịch tiêu hóa trong dạ dày giảm thiểu
+> - Nhịp độ trao đổi chất và sản xuất dịch tiêu hóa trong dạ dày giảm thiểu. Do đó cần ăn tối trước 7h để
+> cơ thể kịp tiêu hóa trước khi bắt đầu ngủ
 > 
 
 # Giờ Tuất(19h-21h)
