@@ -10,6 +10,10 @@ categories:
 
 # Trình tự để viết Upstart script trên Ubuntu
 
+https://mikewilliamson.wordpress.com/2015/08/26/running-a-rails-app-with-systemd-and-liking-it/
+
+https://coreos.com/os/docs/latest/getting-started-with-systemd.html
+
 [Link tham khảo](https://www.digitalocean.com/community/tutorials/the-upstart-event-system-what-it-is-and-how-to-use-it)
 
 https://wiki.ubuntu.com/SystemdForUpstartUsers
@@ -71,7 +75,7 @@ TH2:
   sang Unix/OSX format
 ```
 
-# Hướng dẫn viết upstart script cho rails 5 để tự động chạy web server
+# Hướng dẫn viết upstart script cho rails 5 để tự động chạy web server trên ubuntu 16
 
 https://www.ubuntudoc.com/how-to-create-new-service-with-systemd/
 
