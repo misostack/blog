@@ -21,7 +21,7 @@ categories:
 
 ![Đồng hồ sinh học chi tiết](/assets/img/posts/dong-ho-sinh-hoc.jpg)
 
-# Đúc kết
+# Lí luận và khoa học thực tiễn
 
 **Một ngày mới bắt đầu vào giờ tý, kết thúc ở giờ hợi**
 
@@ -232,5 +232,6 @@ categories:
 > - Sức đề kháng cơ thể cao nhất, chống các vi trùng xâm nhập có hiệu quả cao nhất (lần thứ nhất lúc 7 giờ)
 > - Nhiệt độ cơ thể giảm.
 > - Cần đi ngủ để chuẩn bị cho ngày mới
+
 
 Xem thêm tại : [gio sinh hoc](https://misopaladin.wordpress.com/2017/10/05/gio-sinh-hoc/)
