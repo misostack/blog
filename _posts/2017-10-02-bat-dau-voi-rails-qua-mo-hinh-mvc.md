@@ -384,3 +384,11 @@ $(document).ready(function () {
   </body>
 </html>
 ```
+
+### Assets
+
+[Overview](http://guides.rubyonrails.org/asset_pipeline.html)
+
+> rake assets:clobber
+> rake assets:clean
+> rake assets:build
