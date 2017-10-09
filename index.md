@@ -14,6 +14,10 @@ description : "Tips, tools for programming, includes : web, ops, app, ..."
 
 ## Sử dụng jekyll tạo tài liệu
 
+Liquid Layout Ref : [help.shopify.com/themes/liquid/basics/handle](https://help.shopify.com/themes/liquid/basics/handle)
+
+Liquid layout array : [help.shopify.com/themes/liquid/filters/array-filters#sort](https://help.shopify.com/themes/liquid/filters/array-filters#sort)
+
 ## Những command thông dụng trong jekyll
 
 Command | Công dụng

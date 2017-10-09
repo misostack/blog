@@ -20,6 +20,8 @@ Tổng quan cấu trúc thư mục
 
 Liquid Layout Ref : https://help.shopify.com/themes/liquid/basics/handle
 
+Liquid layout array : https://help.shopify.com/themes/liquid/filters/array-filters#sort
+
 ### Bước 1 : Cài đặt
 
 *Cài đặt bundle*
