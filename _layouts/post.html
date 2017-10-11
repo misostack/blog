@@ -19,10 +19,10 @@ layout: default
     <div class="col-12 col-lg-8 col-md-8 col-xl-8 py-md-3 pl-md-5 bd-content">
       <div class="tags">
         <strong>Tags:</strong>
-          {% assign sortedCategories = page.tags | sort %}
+          {% assign sortedCategories = page.categories | sort %}
           {% for category in sortedCategories %}
               <span class="tag">
-                  <a href="/tag/{{ category }}">#{{ category }}</a>
+                  <a href="/category/{{ category }}">#{{ category }}</a>
               </span>
           {% endfor %}
       </div>
