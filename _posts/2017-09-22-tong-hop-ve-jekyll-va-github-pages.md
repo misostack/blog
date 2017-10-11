@@ -17,6 +17,8 @@ categories:
 
 - [Jekyll links](http://jekyllrb.com/docs/templates/#link)
 
+- [Liqud Template](https://shopify.github.io/liquid/filters/replace/)
+
 ## Sử dụng jekyll tạo tài liệu
 
 Liquid Layout Ref : [help.shopify.com/themes/liquid/basics/handle](https://help.shopify.com/themes/liquid/basics/handle)

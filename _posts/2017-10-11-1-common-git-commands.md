@@ -89,3 +89,7 @@ git tag tag-name # create new tag
 git push --tag #
 git push --tags # push all tags
 ```
+
+### Tham khảo
+
+https://github.com/rikkeisoft/git-training/blob/master/README.md
