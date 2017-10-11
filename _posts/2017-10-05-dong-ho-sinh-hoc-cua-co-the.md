@@ -4,7 +4,7 @@ title: Đồng hồ sinh học của cơ thể
 permalink: "/productiverules/dong-ho-sinh-hoc-cua-co-the"
 description: Áp dụng tốt đồng hồ sinh học, bạn sẽ cải thiện được chất lượng sống đáng kể
 categories: 
-    - "all"
+    - "productives"
 ---
 
 # Đồng hồ sinh học

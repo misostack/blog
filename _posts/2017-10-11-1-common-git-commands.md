@@ -84,6 +84,8 @@ git stash clean
 **Tags**
 
 ```
-git tag tag-name
-git push tag tag-name
+git tag # list all your tags
+git tag tag-name # create new tag
+git push --tag #
+git push --tags # push all tags
 ```
