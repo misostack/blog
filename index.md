@@ -4,72 +4,28 @@ title : "Technical blog from misostack"
 description : "Tips, tools for programming, includes : web, ops, app, ..."
 ---
 
-## Jekyll & Markdown Refs
+### I.How to be more productive everyday
 
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+### II.Công nghệ phần mềm
 
-- [Jekyll layout](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-layouts/)
+#### A.Stacks
 
-- [Jekyll links](http://jekyllrb.com/docs/templates/#link)
+**1.LAMP**
 
-## Sử dụng jekyll tạo tài liệu
+**2.ROR**
 
-Liquid Layout Ref : [help.shopify.com/themes/liquid/basics/handle](https://help.shopify.com/themes/liquid/basics/handle)
+**3.MEAN**
 
-Liquid layout array : [help.shopify.com/themes/liquid/filters/array-filters#sort](https://help.shopify.com/themes/liquid/filters/array-filters#sort)
+#### B.Languages
 
-## Những command thông dụng trong jekyll
+**1.PHP**
 
-Command | Công dụng
------------- | -------------
-bundle exec jekyll serve | Serve jekyll at [localhost:port](http://localhost:4000)
-bundle exec jekyll page "Page Name" | Tạo page mới
-bundle exec jekyll post "Post Name" | Tạo post mới
+**2.Javascript**
 
-## Example format
+**3.HTML**
 
-### page
+**4.SASS or CSS**
 
-*create*
+**5.Ruby**
 
-```
-bundle exec jekyll page "Page Name"
-```
-
-*modify page-name.md*
-
-```
----
-layout: page
-title: Page title
-description: short description
----
-
-Content
-
-```
-
-### post
-
-*create*
-
-```
-bundle exec jekyll post "Post Name"
-```
-
-*modify _posts/yyyy-mm-dd-post-name.md*
-
-```
----
-title: Tổng hợp về jekyll và github pages
-description: "Hướng dẫn từ cơ bản đến cao sử dụng jekyll để tạo github pages" 
-permalink: "/category-name/post-name" 
-layout: post
-
-categories: 
-    - "category-name"
----
-
-Content
-
-```
+#### C.Devops

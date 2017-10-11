@@ -4,7 +4,7 @@ title: Giờ làm việc hiệu quả
 permalink: "/productiverules/gio-lam-viec-hieu-qua"
 description: Áp dụng đồng hồ sinh học, xây dựng giờ làm việc hiệu quả
 categories: 
-    - "productiverules"
+    - "productives"
 ---
 
 # Giờ làm việc hiệu quả

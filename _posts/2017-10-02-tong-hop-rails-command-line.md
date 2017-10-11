@@ -4,8 +4,7 @@ title: tong hop rails command line
 description: Bảng tổng hợp rails command line
 permalink: "/ruby-and-rails/tong-hop-rails-command-line"
 categories: 
-    - "backend"
-    - "ruby-and-rails"
+    - "all"
 ---
 
 # Tổng hợp command line cho rails 5

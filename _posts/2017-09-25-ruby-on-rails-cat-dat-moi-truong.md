@@ -4,8 +4,7 @@ title: Ruby on Rails Cài đặt môi trường
 description: "Hướng dẫn từ cơ bản đến cao về ruby & rails" 
 permalink: "/ruby-and-rails/cat-dat-moi-truong"
 categories: 
-    - "backend"
-    - "ruby-and-rails"
+    - "all"    
 ---
 
 ## Cài đặt môi trường development

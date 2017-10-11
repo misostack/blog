@@ -15,10 +15,10 @@
   <div class="container">
     <ul>
       <li><a href="{{site.url}}">[Home]</a></li>
-      {% assign sortedCategories = "miscellaneous, backend, frontend, app, devops, productiverules" | split: ", " %}
+      {% assign sortedCategories = "jekyll|software-development|productives|git" | split: "|" | sort %}
       {% for category in sortedCategories %}
           <li>
-            <a href="/category/{{ category }}">[{{ category }}]</a>
+            <a href="/category/{{ category }}">[{{ category | replace: "-", " " }}]</a>
           </li>
       {% endfor %}
       <li><a href="{% link contact.md %}">[Contact]</a></li>

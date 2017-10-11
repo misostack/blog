@@ -3,7 +3,7 @@ layout: post
 title: Quản lí git repo hiệu quả
 description: Phân chia nhóm project trên bitbucket hợp lí theo chủ đề
 categories: 
-    - "productiverules"
+    - "productives"
 ---
 
 # Tổ chức theo công việc

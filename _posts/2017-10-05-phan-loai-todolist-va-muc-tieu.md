@@ -3,7 +3,7 @@ layout: post
 title: Phân loại todolist và mục tiêu
 description: Chia sẻ kinh nghiệm về việc phân loại todolist và mục tiêu
 categories: 
-    - "productiverules"    
+    - "productives"    
 ---
 
 ### Phân loại mục tiêu

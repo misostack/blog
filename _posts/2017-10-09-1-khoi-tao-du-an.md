@@ -1,13 +1,10 @@
 ---
-layout: ror2017
+layout: post
 title: 1.Khoi tao du an
 order: 1
 description: "Hướng dẫn từ cơ bản đến cao về ruby & rails" 
-permalink: "/ror2017/1-khoi-tao-du-an"
 categories: 
-    - "backend"
-    - "ruby-and-rails"
-    - "ror2017"
+    - "ror"
 ---
 
 # Cài đặt rails box

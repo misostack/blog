@@ -1,13 +1,10 @@
 ---
-layout: ror2017
+layout: post
 title: 2.Rails command line
 order: 2
 description: "Hướng dẫn từ cơ bản đến cao về ruby & rails" 
-permalink: "/ror2017/2-rails-command-line"
 categories: 
-    - "backend"
-    - "ruby-and-rails"
-    - "ror2017"
+    - "ror"
 ---
 
 # bundler

@@ -4,8 +4,7 @@ title: Tổng hợp rails active record
 description: Tổng hợp rails active record và mapping data types
 permalink: "/ruby-and-rails/tong-hop-rails-active-record"
 categories: 
-    - "backend"
-    - "ruby-and-rails"
+    - "all"
 ---
 
 # Rails active record full support for postgresql data type

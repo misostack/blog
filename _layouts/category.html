@@ -2,9 +2,29 @@
 layout: default
 description: ""
 ---
-
-<div class="blog list">    
-    {% for post in site.categories[page.tag] %}
-        {% include post_preview.html %}
-    {% endfor %}
+{% assign posts = site.categories[page.tag] %}      
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-lg-4 col-md-4 col-xl-2 bd-sidebar">
+      <h3>{{page.tag}}</h3>
+      <ul style="list-style: none;margin:0;padding:0;">
+        {% if posts %}
+        {% assign posts = posts | sort: 'order' %}
+          {% for post in posts %}        
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>        
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+    <div class="col-12 col-lg-8 col-md-8 col-xl-8 py-md-3 pl-md-5 bd-content">
+      {% if posts %}
+        {% assign posts = posts | sort: 'order' %}
+        {% assign first_post = posts.first %}
+        <h1 class="post-title">{{ first_post.title }}</h1>        
+        <div class="post-content">
+          {{ first_post.content }}
+        </div>
+      {% endif %}
+    </div>    
+  </div>
 </div>

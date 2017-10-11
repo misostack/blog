@@ -1,13 +1,10 @@
 ---
-layout: ror2017
+layout: post
 title: 4.Design application's structure
 order: 4
 description: "Hướng dẫn từ cơ bản đến cao về ruby & rails" 
-permalink: "/ror2017/design-application-structure"
 categories: 
-    - "backend"
-    - "ruby-and-rails"
-    - "ror2017"
+    - "ror"
 ---
 
 # Các phương pháp tiếp cận

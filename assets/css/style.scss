@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+body,html{
+  font-size:13px;
+}
 
 .main-content{
   max-width:initial;
@@ -55,5 +58,32 @@
 }
 
 .post_preview{
+  margin-bottom:40px;
+}
+
+.bd-sidebar,.bd-content{
+  padding-top:0!important;
+}
+.post-title{
+  background :#159957;
+  color:#FFF !important;
+  padding:15px 10px;
+  margin:0;
+}
+.sidebar-categories-list, .bd-sidebar ul{
+  a{
+    color:#159957;
+    display:block;    
+    text-transform:capitalize;
+    padding:5px 0;
+    border-bottom:1px solid #e1e1e1;
+  }
+}
+
+.bd-sidebar h3{
+  text-transform:capitalize;
+}
+
+.tags{
   margin-bottom:40px;
 }

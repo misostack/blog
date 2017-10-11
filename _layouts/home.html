@@ -1,4 +1,19 @@
 ---
 layout: default
 ---
-{{ content }}
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-lg-4 col-md-4 col-xl-2 bd-sidebar">
+      <h3>Chủ đề</h3>
+      <ul class="sidebar-categories-list" style="list-style: none;margin:0;padding:0;">
+        {% assign sorted_cats = site.categories | sort %}
+        {% for category in sorted_cats %}
+            <li><a href="/category/{{ category | first }}"><strong>{{category|first}}</strong></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-12 col-lg-8 col-md-8 col-xl-8 py-md-3 pl-md-5 bd-content">
+      {{ content }}
+    </div>    
+  </div>
+</div>

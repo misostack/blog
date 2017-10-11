@@ -4,8 +4,7 @@ title: Tìm hiểu về Upstart System Event trên Ubuntu
 description: Tìm hiểu về upstart script trên ubuntu
 permalink: "/devops/tim-hieu-ve-upstart-system-event-tren-ubuntu"
 categories:     
-    - "devops"
-    - "backend"
+    - "all"
 ---
 
 # Trình tự để viết Upstart script trên Ubuntu

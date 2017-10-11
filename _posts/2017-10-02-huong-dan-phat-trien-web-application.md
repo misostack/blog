@@ -4,7 +4,7 @@ title: Hướng dẫn phát triển ứng dụng web
 description: Tăng tốc phát triển ứng dụng web
 permalink: "/productiverules/tang-toc-phat-trien-ung-dung-web"
 categories:     
-    - "productiverules"
+    - "all"
 ---
 
 # Hướng dẫn cách tiếp cận và phát triển tính năng

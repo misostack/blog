@@ -3,7 +3,7 @@ layout: post
 title: Quy tắc tạo todo list
 description: Các luật khi tạo todo list
 categories: 
-    - "productiverules"    
+    - "productives"
 ---
 
 # A. Quy tắc chung

@@ -4,8 +4,7 @@ title: beginning of rails 5
 description: Bảng tham khảo về ruby
 permalink: "/ruby-and-rails/beginning-of-rails-5"
 categories: 
-    - "backend"
-    - "ruby-and-rails"
+    - "all"
 ---
 
 # I.Hướng dẫn tiếp cận rails 5 theo từng bước
