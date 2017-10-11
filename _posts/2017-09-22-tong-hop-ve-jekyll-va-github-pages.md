@@ -19,6 +19,8 @@ categories:
 
 - [Liqud Template](https://shopify.github.io/liquid/filters/replace/)
 
+- [Example github-pages](https://github.com/minddust/minddust.github.io)
+
 ## Sử dụng jekyll tạo tài liệu
 
 Liquid Layout Ref : [help.shopify.com/themes/liquid/basics/handle](https://help.shopify.com/themes/liquid/basics/handle)
