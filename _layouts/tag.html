@@ -1,12 +1,12 @@
 ---
 layout: default
+description: ""
 ---
-
-{% assign posts = site.categories[page.categories.first] %}      
+{% assign posts = site.tags[page.tag] %}      
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-lg-4 col-md-4 col-xl-2 bd-sidebar">
-      <h3>{{page.categories.first}}</h3>
+      <h3>{{page.tag}}</h3>
       <ul style="list-style: none;margin:0;padding:0;">
         {% if posts %}
         {% assign posts = posts | sort: 'order' %}
@@ -17,16 +17,14 @@ layout: default
       </ul>
     </div>
     <div class="col-12 col-lg-8 col-md-8 col-xl-8 py-md-3 pl-md-5 bd-content">
-      <div class="tags">
-        <strong>Tags:</strong>
-          {% assign sortedCategories = page.tags | sort %}
-          {% for category in sortedCategories %}
-              <span class="tag">
-                  <a href="/tag/{{ category }}">#{{ category }}</a>
-              </span>
-          {% endfor %}
-      </div>
-      {{ content }}
+      {% if posts %}
+        {% assign posts = posts | sort: 'order' %}
+        {% assign first_post = posts.first %}
+        <h1 class="post-title">{{ first_post.title }}</h1>        
+        <div class="post-content">
+          {{ first_post.content }}
+        </div>
+      {% endif %}
     </div>    
   </div>
 </div>
