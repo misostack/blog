@@ -157,11 +157,18 @@ rails server
 ### Thiết lập lại cấu hình database
 
 ```
-
+development:
+  <<: *default
+  database: ror-todolist_development
+  username: ror_todolist
+  password: 123456
 ```
 
 ### Tạo test scaffold trước để thử kết nối database
 
+```
+
+```
 
 
 # Application packages need
