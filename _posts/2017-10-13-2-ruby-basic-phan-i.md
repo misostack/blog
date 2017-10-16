@@ -90,3 +90,8 @@ https://bitbucket.org/sonnmpersonal/ror-rubyol
 ```ruby
 {% include ruby/ruby-loops.rb %}
 ```
+
+#### Xây dựng module cho phép quét email từ website và lưu lại
+
+> Module: EmailHunter
+> - Cấu trúc : singleton 

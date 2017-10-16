@@ -56,3 +56,11 @@ categories:
 > - Books
 > - Followers: people, group, websites that we can follow to get updates
 > - Big Application or Sites built by this language
+
+
+>**Finally, the best way to learn is after reading the basic knowledge:
+>syntax, variables, operators, data types, function & class, if-else 
+>statement, strings, array, hash, loop, iterator, exceptions, file i/o. You 
+>should build a simple app to get in depth what you have learned.**
+
+
