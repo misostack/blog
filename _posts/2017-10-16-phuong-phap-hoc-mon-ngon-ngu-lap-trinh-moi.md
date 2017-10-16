@@ -41,6 +41,7 @@ categories:
 > - File manipulation: text, xml, json
 > - Database Access
 > - HTTP Request
+> - Web server, REST API
 > - Socket
 > - Multi thread
 > - Web Application or OS Application(desktop application)
