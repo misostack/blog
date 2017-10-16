@@ -7,6 +7,9 @@ tags:
     - "ruby"
 ---
 
+> - **Ruby Is English for Computers**
+> - **Everything Is an Object**
+
 # Hướng dẫn cài đặt ruby trên window
 
 # Hướng dẫn cài đặt ruby trên ubuntu (16.04)
