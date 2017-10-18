@@ -6,6 +6,11 @@ categories:
     - "productives"
 ---
 
+# Tổ chức theo nhóm
+
+- Project : 
+- Prefix : 
+
 # Tổ chức theo công việc
 
 > Bước 1 : Phân loại theo team : business, production, outsourcing, personal
