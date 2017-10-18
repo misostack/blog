@@ -48,3 +48,8 @@ bundle exec rspec spec/controllers/accounts_controller_spec.rb
 # Run only spec on line 8 of AccountsController
 bundle exec rspec spec/controllers/accounts_controller_spec.rb:8
 ```
+
+## References
+
+- [Rspec](http://rspec.info/)
+- [Rspec expectation](https://github.com/rspec/rspec-expectations)
