@@ -40,3 +40,11 @@ require 'module_name/newapi'
 - Viết test trước
 - Viết function thực thi cho đến khi test đúng
 ```
+
+# Cách test
+
+## Build gem
+
+## Install gem
+
+## Include và sử dụng
