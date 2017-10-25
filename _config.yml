@@ -9,6 +9,9 @@ github_username:  misostack
 google_analytics: UA-106909431-1
 lang: vi-VN
 
+# Exclude
+exclude: [tmp]
+
 # Build settings
 markdown: kramdown
 plugins:
