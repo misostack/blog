@@ -10,7 +10,7 @@ google_analytics: UA-106909431-1
 lang: vi-VN
 
 # Exclude
-exclude: [tmp]
+exclude: [vendor]
 
 # Build settings
 markdown: kramdown
