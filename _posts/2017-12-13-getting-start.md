@@ -13,6 +13,22 @@ tags:
 - [x] Install Common gems
 - [x] Install Rails
 
+### Custom rails generator
+
+**You can edit your config/application.rb**
+
+```
+# custom generator
+config.generators do |g|
+  # g.orm             :active_record
+  # g.template_engine :erb
+  # g.test_framework  :test_unit, fixture: false
+  # g.stylesheets     false
+  # g.javascripts     false
+  g.javascript_engine :js
+end
+```
+
 ### Create your new controller, and set it as home page
 
 ```
