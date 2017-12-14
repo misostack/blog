@@ -101,3 +101,7 @@ GRANT ALL ON qlnb_api_development.* TO 'qlnb_api'@'localhost';
 rails generate scaffold Page title:string description:string content:string
 rails db:migrate:status
 ```
+
+### Custom scaffold generator
+
+- [link](https://www.nopio.com/blog/creating-scaffold-generator-rails/)
